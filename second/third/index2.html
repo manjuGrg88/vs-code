@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+    /* last class we cover these three: */
+
+
+    /* universal selector */
+    *{
+        background-color: teal;
+        color: blue;
+        margin: 0px;
+        padding: 0px;
+    }
+    /* child selector */
+    div >p{
+        color: red;
+        
+    }
+    /* :decrement selector */
+        div article p{
+            color: yellow;
+
+        }
+    div a{
+        color: red;
+    }
+    /* pseudo slector */
+    /* hover */
+    div a:hover{
+        color: green;
+    }
+
+    div a:active{
+        color: ghostwhite;
+    }
+    button{
+        background-color: blue;
+        color: beige;
+        padding: 5px 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin top: 10;
+        margin : 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    
+        
+
+
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+        <p>Hello everyone</p>
+        <p>hi</p>
+        <article>
+            <p>How are you?</p>
+            <a href=""></a>
+        </article>
+        <a href="#">Google</a>
+    </div>
+
+    <button>Click here</button>
+    
+</body>
+</html>
