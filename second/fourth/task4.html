@@ -8,36 +8,77 @@
         .container{
             height: 10vh;
             width: 90%;
-            background-color: rgb(71, 89, 121);
-            border: 2px solid red;
+            background-color: rgb(54, 81, 131);
+            border: 2px solid rgb(142, 64, 69);
             border-radius: 11px;
             padding: 10px;
             display: flex;
-            justify-content: end;
+            justify-content:space-between ;
             align-items: center;
             gap: 10px;
-            
+        }
+        .circle{
+            background-color: rgb(171, 63, 63);
+            border: 2px solid whitesmoke;
+            border-radius: 60%;
+            color: white;
+            justify-self: start;
+            align-items:start ;
+            padding: 5px;
+            font-style: italic;
 
 
         }
-        .nav{
-            background-color: rgb(92, 57, 117);
+        ul{
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+        li{
+            background-color: rgb(91, 50, 121);
             border: 2px solid white;
             color: aliceblue;
-            height: 30px;
-            width: 70px;
-            border-radius: 14px;
+            border-radius: 10px;
             font-style: italic;
-            display flex-direction: ;
+            list-style-type: none;
+            padding: 5px;
+        
 
         }
+        .tab{
+            display: flex;
+            gap: 5px;
+        }
+
+        
+        .button{
+            background-color: rgb(135, 97, 39);
+            color: white;
+            border: 2px  solid whitesmoke;
+            border-radius: 10px;
+            padding: 5px;
+            
+
+        }
+        
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="nav">Home</div>
-        <div class="nav">About</div>
-        <div class="nav">Contact</div>
+        <div class="circle">Logo</div>
+
+        <ul>
+            <li>About</li>
+            <li>Home</li>
+            <li>Contact</li>
+        </ul>
+        <div class="tab">
+            <div class="button">signup</div>
+            <div class="button">login</div>
+        </div>
     </div>
 </body>
 </html>
+
+
