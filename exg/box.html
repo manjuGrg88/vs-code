@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+
+        main{
+            margin-top: 40px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #0d1322;
+            padding: 15px 40px;
+            position: fixed;
+            right: 0px;
+            left: 0px;
+            top: 0px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            color: #ffffff;
+            font-weight: bold;
+            font-size: 18px;
+
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+
+        ul li {
+            color: #ffffff;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+       
+        .hero {
+            background-color: #e0e9f8;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero p {
+            color: #3b82f6;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            letter-spacing: 1px;
+        }
+
+        .hero h1 {
+            color: #0f172a;
+            font-size: 26px;
+            margin-bottom: 20px;
+        }
+
+        .hero button {
+            background-color: #2563eb;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+    
+        .special-menu {
+            text-align: center;
+            padding: 40px 20px 60px;
+            background-color: #ffffff;
+        }
+
+        .special-menu p {
+            color: #64748b;
+            font-size: 12px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            letter-spacing: 1px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1;
+            height: 140px;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: bold;
+        }
+
+        .food1 { background-color: #1f4599; }
+        .food2 { background-color: #20b382; }
+        .food3 { background-color: #4143b4; }
+
+        
+        footer {
+            background-color: #0d1322;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            right: 0px;
+            left: 0px;
+            bottom: 0px;
+
+        }
+
+        footer p {
+            color: #64748b;
+            font-size: 12px;
+            font-weight: bold;
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Logo</div>
+            <ul>
+                <li>Home</li>
+                <li>Menu</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p>HERO SECTION</p>
+            <h1>Delicious Food Starts Here</h1>
+            <button>Order Now</button>
+        </section>
+
+        <section class="special-menu">
+            <p>OUR SPECIAL MENU</p>
+            <div class="cards">
+                <div class="card food1">Food 1</div>
+                <div class="card food2">Food 2</div>
+                <div class="card food3">Food 3</div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>FOOTER</p>
+    </footer>
+</body>
+</html>
