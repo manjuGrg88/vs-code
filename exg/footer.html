@@ -1,64 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .container{
+        .container {
             background-color: rgb(20, 20, 63);
             color: rgb(230, 222, 222);
             padding: 30px;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            gap: 10px;
             font-size: small;
             border: 2px solid rgb(215, 116, 18);
 
         }
-        li{
-            list-style-type: none;
-            padding: 3px;
+        .grid{
             
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
         }
 
-        p{
+        .center {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+        }
+
+        li {
+            list-style-type: none;
+            padding: 3px;
+
+        }
+
+        p {
             font-weight: lighter;
         }
-        h3{
+
+        h3 {
             font-family: Georgia, 'Times New Roman', Times, serif;
             color: white;
         }
-        
-
     </style>
 </head>
+
 <body>
     <div class="container">
-        <div class="colum1">
-            <h3>Siddhibinayak Holidays</h3>
-            <p>Premium travles services for Nepal trekking and internatuonal destinations.Flights,helicopter charters,visa and complete travels support.</p>
-        </div>
-        <div class="coloum2">
-            <h3>Quick links</h3>
-            <ul>
-                <li>About</li>
-                <li>Trekking Nepal</li>
-                <li>Holidays Abroad</li>
-                <li>Gallery</li>
-                <li>Enquiry</li>
-                <li>Contact</li>
-            </ul>
+        <div class="grid">
+            <div class="colum1">
+                <h3>Siddhibinayak Holidays</h3>
+                <p>Premium travles services for Nepal trekking and internatuonal destinations.Flights,helicopter
+                    charters,visa and complete travels support.</p>
+            </div>
+            <div class="coloum2">
+                <h3>Quick links</h3>
+                <ul>
+                    <li>About</li>
+                    <li>Trekking Nepal</li>
+                    <li>Holidays Abroad</li>
+                    <li>Gallery</li>
+                    <li>Enquiry</li>
+                    <li>Contact</li>
+                </ul>
 
-            <p style="font-size: x-small;"> &copy; 2026Siddhibinayak HolidaysPvt.Ltd.All rights reserved.</p>
+
+            </div>
+            <div>
+                <h3>Get In Touch</h3>
+                <p>048547767346465465668</p>
+                <p>Siddhibinayakhilidays09@gmail.com</p>
+            </div>
         </div>
-        <div>
-            <h3>Get In Touch</h3>
-            <p>048547767346465465668</p>
-            <p>Siddhibinayakhilidays09@gmail.com</p>
+        <div class="center">
+            <p style="font-size: x-small;"> &copy; 2026Siddhibinayak HolidaysPvt.Ltd.All rights reserved.</p>
         </div>
 
 
     </div>
 </body>
+
 </html>
